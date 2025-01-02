@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "huzzi";
+    src: url(./Galada/Galada-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.heading1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(1, 1, 62);
+    color: white;
+    padding: 15px 0px 10px 0px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    padding: 10px 93px 20px 94px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(36, 4, 92);
+    text-align: center;
+}
+
+td:hover {
+    background-color: rgb(58, 58, 238);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.heading2 {
+    margin-top: 30px;
+    height: 60px;
+    background-color: #9ea6ff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.heading3 {
+    font-family: "huzzi";
+    margin-top: 30px;
+    height: 60px;
+    background-color: #9ea6ff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.heading3 a {
+    color: black;
+}
+.heading3:hover{
+    cursor: pointer;
+}
+
+.table2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+ul {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0px 30px 50px;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.ul {
+    text-decoration: underline;
+}
